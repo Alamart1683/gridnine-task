@@ -5,18 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b016529f-05da-4f14-b023-16625bf61655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilterArrivalBeforeDeparture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilterBeforeCurrentTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilterTwoHoursOnGround.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/flight/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/flight/Segment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightFilterArrivalBeforeDepartureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightFilterBeforeCurrentTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FlightFilterTwoHourOnGroundTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/TestClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gridnine/testing/flight/FlightBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="2UWRwF0FCB51q02GiOrBah5G6aS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +48,95 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Delam/Desktop/AirTravelProcessing-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Delam\Documents\gridnine-task\gridnine\src\main\java\com\gridnine\testing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FlightFilterTwoHourOnGroundTest">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.gridnine.testing.Main" />
+      <module name="gridnine" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterArrivalBeforeDepartureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gridnine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightFilterArrivalBeforeDepartureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterBeforeCurrentTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gridnine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightFilterBeforeCurrentTimeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterTwoHourOnGroundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gridnine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightFilterTwoHourOnGroundTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterTwoHourOnGroundTest.twoHourOnGroundDefaultTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gridnine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightFilterTwoHourOnGroundTest" />
+      <option name="METHOD_NAME" value="twoHourOnGroundDefaultTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightFilterTwoHourOnGroundTest.twoHourOnGroundStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gridnine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightFilterTwoHourOnGroundTest" />
+      <option name="METHOD_NAME" value="twoHourOnGroundStreamTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.FlightFilterArrivalBeforeDepartureTest" />
+      <item itemvalue="JUnit.FlightFilterBeforeCurrentTimeTest" />
+      <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest" />
+      <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest.twoHourOnGroundDefaultTest" />
+      <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest.twoHourOnGroundStreamTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest" />
+        <item itemvalue="JUnit.FlightFilterBeforeCurrentTimeTest" />
+        <item itemvalue="JUnit.FlightFilterArrivalBeforeDepartureTest" />
+        <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest.twoHourOnGroundDefaultTest" />
+        <item itemvalue="JUnit.FlightFilterTwoHourOnGroundTest.twoHourOnGroundStreamTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,8 +145,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693053589445</updated>
-      <workItem from="1693053590634" duration="6000" />
+      <workItem from="1693053590634" duration="25096000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gridnine/testing/filter/FlightFilterTwoHoursOnGround.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="currentTime.time" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
